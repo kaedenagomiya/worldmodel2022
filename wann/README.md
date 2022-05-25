@@ -44,12 +44,13 @@ Adam Gaier（Bonn-Rhein-Sieg University of Applied Sciences）とDavid Ha（Goog
 
 
 <div style="text-align: center">
- <img src="./img/neuron_development.png" width="auto" height="auto">
+ <img src="./img/neuron_development.png">
 </div>
 
 
 ## Algorithm
-<img src="./img/search_wann.png">
+
+<img src="./img/search_wann.png" width="auto" height="auto">
 
 	
 <div style="text-align: center">
