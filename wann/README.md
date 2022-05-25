@@ -8,7 +8,11 @@
 -->
 
 <div style="text-align: center">
- <img src="./img/neuron_development.png" alt="ref:5">
+ <img src="./img/neuron_development.png">
+</div>
+
+<div style="text-align: center">
+ <p>ref : 5</p>
 </div>
 
 ## env
