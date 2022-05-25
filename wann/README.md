@@ -44,7 +44,7 @@ Adam Gaier（Bonn-Rhein-Sieg University of Applied Sciences）とDavid Ha（Goog
 
 
 <div style="text-align: center">
- <img src="./img/neuron_development.png">
+ <img src="./img/neuron_development.png" width="auto" height="auto">
 </div>
 
 
