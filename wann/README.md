@@ -42,6 +42,8 @@ Adam Gaier（Bonn-Rhein-Sieg University of Applied Sciences）とDavid Ha（Goog
 そういった意味では、WANNは汎用的な人工知能の実現の礎となるような研究なのではないかと、
 私は考えている。
 
+PS.
+<font color="Deepskyblue">今の覇権をひっくり返せるかも！GPUいらずのアルゴリズム</font>
 
 <div style="text-align: center">
  <img src="./img/neuron_development.png">
@@ -52,10 +54,40 @@ Adam Gaier（Bonn-Rhein-Sieg University of Applied Sciences）とDavid Ha（Goog
 
 <img src="./img/search_wann.png" width="auto" height="auto">
 
-	
+### WANNのアルゴリズム
+
+1. 最小限のニューラルネットワークの構造をもつ、ネットワークを作る
+1. それぞれのネットワークに対して、統一の重みを設定し、タスク実行・評価を繰り返す
+1. ネットワークを複雑さとパフォーマンスに応じて、ランク付けする
+1. 高い評価を得たネットワークを選び、変化を加えてネットワーク構成する
+
+※ 2~4を繰り返すことによって、世代を重ね,徐々に複雑になり、パフォーマンスを上昇させる
+
 <div style="text-align: center">
  <img src="./img/search_topology.png">
 </div>
+
+入力と出力が部分的に接続されているネットワーク構造（隠れ層のない）から、
+高い評価を得て選ばれたネットワークは以下のステップを経て、ネットワークを変更していく
+
+1. ノードの挿入：既存の接続を分割し、新しいノードを挿入
+1. 接続の追加：以前に接続されていなかった2つのノードを接続し、新しい接続を追加する
+1. ノードの活性化関数をランダムに変更する
+
+活性化関数は、
+
+- linear
+- step
+- sin
+- cos
+- Gaussian
+- tanh
+- sigmoid
+- inverse
+- absolute value
+- ReLU
+  
+のうちどれか
 
 ## for test code
 
