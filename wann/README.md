@@ -11,9 +11,9 @@
  <img src="./img/neuron_development.png">
 </div>
 
-<div style="text-align: center">
- <p>ref : 5</p>
-</div>
+## Description
+
+## Algorithm
 
 ## env
 miniforge3 (M1 mac (Arm))
