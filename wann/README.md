@@ -1,10 +1,9 @@
 # WANN (Weight Agnostic Neural Network)
 
-<!--
+
 <div style="text-align:center">
- <img src="filename">
+ <img src="./img/neuron_development.png">
 </div>
--->
 
 ## env
 miniforge3 (M1 mac (Arm))
@@ -30,4 +29,4 @@ It may not work due to the version of packages.
 1. [arxiv](https://arxiv.org/abs/1906.04358)
 1. [brain-tokyo-workshop](https://github.com/google/brain-tokyo-workshop/tree/master/WANNRelease)
 1. [Weight Agnostic Neural Network](https://github.com/weightagnostic)
-
+1. [脳の更なる理解への融合研究 統合的神経回路リサーチユニット in 筑波大学](https://ura.sec.tsukuba.ac.jp/archives/6719)
