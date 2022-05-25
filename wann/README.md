@@ -52,7 +52,7 @@ Adam Gaier（Bonn-Rhein-Sieg University of Applied Sciences）とDavid Ha（Goog
 <div style="text-align: center">
  <img src="./img/search_wann.png">
 </div>
-
+	
 <div style="text-align: center">
  <img src="./img/search_topology.png">
 </div>
